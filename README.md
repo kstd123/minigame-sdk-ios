@@ -16,7 +16,8 @@ In Xcode, select **File → Add Package Dependencies** and enter:
 https://github.com/kstd123/minigame-sdk-ios.git
 ```
 
-Select version `0.1.1` and add the `MiniGameSDK` product to the app target.
+Select version `0.1.2` and add the `MiniGameSDK` product to the app target.
+Add `MiniGameAdsAppLovin` only when the host uses AppLovin MAX.
 
 For a package manifest:
 
@@ -24,7 +25,7 @@ For a package manifest:
 dependencies: [
     .package(
         url: "https://github.com/kstd123/minigame-sdk-ios.git",
-        exact: "0.1.1"
+        exact: "0.1.2"
     ),
 ]
 ```
@@ -34,6 +35,15 @@ Import the SDK from application code:
 ```swift
 import MiniGameSDK
 ```
+
+For the optional MAX provider:
+
+```swift
+import MiniGameAdsAppLovin
+```
+
+`MiniGameAdsAppLovin` pins the official AppLovin SDK to `13.6.3`. The core
+`MiniGameSDK` product remains independent of all advertising SDKs.
 
 The package distributes signed binary XCFrameworks for iOS devices and
 simulators. Release archives are pinned by Swift Package Manager checksums.
