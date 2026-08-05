@@ -16,7 +16,7 @@ In Xcode, select **File → Add Package Dependencies** and enter:
 https://github.com/kstd123/minigame-sdk-ios.git
 ```
 
-Select version `0.2.0` and add the `MiniGameSDK` product to the app target.
+Select version `0.2.1` and add the `MiniGameSDK` product to the app target.
 Add `MiniGameAdsAppLovin` only when the host uses AppLovin MAX.
 
 For a package manifest:
@@ -25,7 +25,7 @@ For a package manifest:
 dependencies: [
     .package(
         url: "https://github.com/kstd123/minigame-sdk-ios.git",
-        exact: "0.2.0"
+        exact: "0.2.1"
     ),
 ]
 ```
