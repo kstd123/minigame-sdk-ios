@@ -32,18 +32,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MiniGameSDK",
-            url: "https://github.com/kstd123/minigame-sdk-ios/releases/download/0.2.2/MiniGameSDK-0.2.2.xcframework.zip",
-            checksum: "8aed7954a8561d1d816e2a4c0399a897a822d4f1c1d26ae9ac7382eabd083562"
+            url: "https://github.com/kstd123/minigame-sdk-ios/releases/download/0.2.3/MiniGameSDK-0.2.3.xcframework.zip",
+            checksum: "8b497c3c37fc434e74b280bf77865c2d25e4106d5e633ea9f62a3b91bd0e3bf5"
         ),
         .binaryTarget(
             name: "ZIPFoundation",
-            url: "https://github.com/kstd123/minigame-sdk-ios/releases/download/0.2.2/ZIPFoundation-0.9.20.xcframework.zip",
-            checksum: "25bf788cd2e2d36d9da034560315b1c2ee4d2422ba3765c21279f80b1f0066d6"
+            url: "https://github.com/kstd123/minigame-sdk-ios/releases/download/0.2.3/ZIPFoundation-0.9.20.xcframework.zip",
+            checksum: "c473bc6d20072c34476a3bc2675c12471eb754de9670baa90ba8f7a80b03d036"
         ),
         .binaryTarget(
             name: "MiniGameAdsAppLovin",
-            url: "https://github.com/kstd123/minigame-sdk-ios/releases/download/0.2.2/MiniGameAdsAppLovin-0.2.2.xcframework.zip",
-            checksum: "a097e11b5e8a2dba740cec03bc264bb1ec3e85bfebc09207036629767e05764d"
+            url: "https://github.com/kstd123/minigame-sdk-ios/releases/download/0.2.3/MiniGameAdsAppLovin-0.2.3.xcframework.zip",
+            checksum: "898e9ee45523684e31658d4ce8adde922465ee5ea51976a6a181680da807186b"
         ),
         .target(
             name: "MiniGameAdsAppLovinLinker",
